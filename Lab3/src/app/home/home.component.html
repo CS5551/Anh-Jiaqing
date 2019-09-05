@@ -1,0 +1,30 @@
+<div class="parent-container">
+  <div class="child-container">
+    <h2><b>Search
+    </b></h2><br>
+    <form>
+      <div class="form-group">
+        <div class="form-group col-lg-6 col-lg-offset-3 input-group">
+          <input id="input" type="text" class="form-control" placeholder="Search" #key>
+        </div><br>
+        <button type="button" class="btn btn primary col-lg-2 col-lg-offset-5" (click)="getResult()">Search</button>
+      </div>
+    </form>
+  </div>
+</div><br><br>
+<div class="container" *ngIf="result">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="panel panel-default col-6">
+        <div class="panel-heading"><b>Nutrition</b></div>
+        <div class="panel-body" >
+          <p>Calories: {{result.nf_calories}}kcal</p>
+          <p>Total fat: {{result.nf_total_fat}}g</p>
+          <p>Sodium: {{result.nf_calories}}mg</p>
+          <p>Total carbohydrate: {{result.nf_total_carbohydrate}}g</p>
+          <p>Serving weight: {{result.nf_serving_weight_grams}}g</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
