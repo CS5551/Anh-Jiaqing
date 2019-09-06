@@ -1,5 +1,13 @@
 h1{
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 0;
+}
+h2{
+  text-align: center;
+  border-style: dashed;
+  margin: 50px;
+  size: auto;
+}
+h3{
+  text-align: center;
+  border-style: dashed;
 }

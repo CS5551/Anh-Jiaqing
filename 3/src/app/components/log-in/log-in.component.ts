@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {ngModuleJitUrl} from '@angular/compiler';
-import {Subject} from "rxjs";
-import {any} from 'codelyzer/util/function';
+import {AuthService} from '../../services/auth.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-log-in',
@@ -9,32 +8,27 @@ import {any} from 'codelyzer/util/function';
   styleUrls: ['./log-in.component.css']
 })
 export class LogInComponent implements OnInit {
-
-  constructor() { }
-  private subject = new Subject<any>()
   public info: any = {
     username : '',
     password : '',
-};
-  public   Username;
-  public   Password;
-  public   status;
+  };
+
+  status: string;
+
+  constructor(private authService: AuthService,
+              private router: Router,
+              ) {}
+
   ngOnInit()  {
+  }
 
 
-  }
-  doRegister() {
-this.Username = this.info.username;
-this.Password = this.info.password;
-this.info.username = '';
-this.info.password = '';
-this.status = 'Register succeeded!';
-  }
   doSubmit() {
-    if (this.info.username === this.Username) {
-      this.status = 'Log in succeeded!'
-      console.log(this.status);
-  } else {this.status = 'username/password is wrong!'; }
+    if (!this.authService.login(this.info.username, this.info.password)) {
+      this.status = 'Log in failed!';
+    } else {
+      this.router.navigate(['/home']);
+    }
   }
 
   doCancel() {
