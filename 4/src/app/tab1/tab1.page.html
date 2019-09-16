@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab One
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h2>
+    <div class="UserName" style="margin: 20px; margin-top: 100px">
+      Username: <input type="text" [(ngModel)]="info.username" style="width:300px;height: 30px">
+    </div>
+
+    <div class="PassWord" style="margin: 20px">
+      Password: <input type="password" [(ngModel)]="info.password" style="width:300px;height: 30px">
+    </div>
+    <div class="Button1" style="margin: 20px">
+      <button id="Submit" (click)="doSubmit()" style="width:80px;height: 30px">Confirm</button> &nbsp;&nbsp;
+      <button id="Cancel" (click)="doCancel()" style="width:80px;height: 30px">Cancel</button>
+    </div>
+    <div class="Register" style="margin-bottom: 50px">
+      <button id="Register" routerLink="/register" style="width:80px;height: 30px">Register</button>
+    </div>
+    <div class="Status" style="margin: 20px; margin-top: 100px">
+      Status: <input type="text" [(ngModel)]="this.status" style="width:300px;height: 30px">
+    </div>
+  </h2>
+</ion-content>
