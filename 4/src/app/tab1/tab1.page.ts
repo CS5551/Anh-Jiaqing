@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import {Router} from '@angular/router';
-import {AuthService} from '../services/auth.service';
+import {Component} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -8,31 +8,41 @@ import {AuthService} from '../services/auth.service';
 })
 export class Tab1Page {
 
-  public info: any = {
-    username : '',
-    password : '',
-  };
+  input: string;
+  resultKnowledge: any;
+  resultImages: any;
 
-  status: string;
+  constructor(private httpClient: HttpClient) {
+    this.input = '';
+    this.resultKnowledge = null;
+    this.resultImages = null;
+  }
 
-  constructor(private authService: AuthService,
-              private router: Router,
-  ) {}
-
-
-
-  doSubmit() {
-    if (!this.authService.login(this.info.username, this.info.password)) {
-      this.status = 'Log in failed!';
-    } else {
-      this.status = 'Log in successfully!';
+  search() {
+    if (this.input !== '') {
+      console.log(this.input);
+      this.httpClient.get('https://kgsearch.googleapis.com/v1/entities:search?query=' + this.input +
+          '&key=AIzaSyBwBVJOXIRpF0WaFEttaF9bLApiH2WftQQ&limit=1&indent=True')
+          .subscribe((data: any) => {
+            if (data.itemListElement.length !== 0) {
+              this.resultKnowledge = data.itemListElement[0].result;
+              console.log(this.resultKnowledge);
+            }
+          });
     }
   }
 
-  doCancel() {
-    this.info.username = '';
-    this.info.password = '';
-    this.status = 'Canceled';
-  }
+  searchImage() {
+    if (this.input !== '') {
+      console.log(this.input);
+      this.httpClient.get('https://pixabay.com/api/?key=13649062-5df1c82a676a823d5924d2b2b&q=' + this.input)
+          .subscribe((data: any) => {
+              if (data.hits.length !== 0) {
+              this.resultImages = data.hits;
+              console.log(this.resultImages);
+            }
+          });
+    }
 
+  }
 }
