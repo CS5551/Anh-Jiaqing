@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Knowledge and Image Search
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="fixed" color="primary">Search</ion-label>
+    <ion-input [(ngModel)]="input" placeholder="Enter something: person, animal,..." type="text"></ion-input>
+  </ion-item>
+  <ion-button (click)="search()">Search</ion-button>
+  <ion-button (click)="searchImage()">Search Image</ion-button>
+
+  <div *ngIf="resultKnowledge">
+    <h2>Results:</h2>
+    <p>Name: {{resultKnowledge.name}}</p>
+    <p>Description: {{resultKnowledge.description}}</p>
+    <p>Url: {{resultKnowledge.detailedDescription.url}}</p>
+    <p>Article Body: {{resultKnowledge.detailedDescription.articleBody}}</p>
+  </div>
+
+  <ion-list *ngIf="resultImages">
+    <h2>Images:</h2>
+    <ion-item *ngFor="let item of resultImages">
+        <ion-img [src]="item.largeImageURL"></ion-img>
+    </ion-item>
+  </ion-list>
+</ion-content>
