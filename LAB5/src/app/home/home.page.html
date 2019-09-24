@@ -1,18 +1,43 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Home
     </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()">
+        <ion-icon name="exit"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    <ion-card>
-      <button id="Submit" (click)="watch()">Get Geolocation</button>
-      <p>Position:{{ coords }}</p>
-      <p>Accuracy: {{accuracy}}</p>
-      <p *ngIf="error">{{error}}</p>
-    </ion-card>
-  </div>
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of items; trackBy: trackByFn">
+      <ion-card *ngIf="item.owner === uid">
+        <ion-card-header class="ion-text-center">
+          <ion-card-title color="primary">{{ item.title }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content font-size="22px">
+          <ion-grid class="ion-no-padding">
+            <ion-row>
+              <ion-col>
+                Description: {{ item.description }}
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                Location: {{ convertLocation(item.location) }}
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-item-sliding>
+  </ion-list>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button routerLink="/item-create" routerDirection="forward">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>

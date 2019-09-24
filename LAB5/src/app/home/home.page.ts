@@ -1,5 +1,9 @@
-import { Component } from '@angular/core';
-import {Geolocation} from '@ionic-native/geolocation';
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Subscription} from 'rxjs';
+import {Item, ItemService} from '../services/item.service';
+import {AuthService} from '../services/auth.service';
+import {NavController} from '@ionic/angular';
+import * as firebase from 'firebase/app';
 
 @Component({
   selector: 'app-home',
@@ -7,17 +11,36 @@ import {Geolocation} from '@ionic-native/geolocation';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  coords: any;
-  accuracy: any;
-  error: any;
-  constructor() {}
+  items: Item[];
+  uid: string;
+  private itemSubscr: Subscription;
 
-  watch() {
-    Geolocation.getCurrentPosition().then((resp) => {
-      this.coords = resp.coords.latitude + ' ' + resp.coords.longitude;
-      this.accuracy = resp.coords.accuracy + 'meters';
-    }).catch((error) => {
-      this.error = 'Failed to get location!' + error;
+  constructor(private itemService: ItemService,
+              private authService: AuthService,
+              private navCtrl: NavController,
+              ) {}
+
+  ionViewWillEnter() {
+    this.uid = firebase.auth().currentUser.uid;
+    this.itemSubscr = this.itemService.getItems().subscribe(res => {
+      this.items = res;
     });
+  }
+
+  ionViewWillLeave() {
+    this.itemSubscr.unsubscribe();
+  }
+
+  trackByFn(index: number, item: any): number {
+    return item.serialNumber;
+  }
+
+  convertLocation(location) {
+    return location.latitude + ' ' + location.longitude;
+  }
+
+  logout() {
+    this.authService.logout();
+    this.navCtrl.navigateRoot('/login');
   }
 }
