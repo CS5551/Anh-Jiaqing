@@ -2,111 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad314ac7-b3a0-4c91-b1a1-377db020f448" name="Default Changelist" comment="Added Notification">
-      <change afterPath="$PROJECT_DIR$/LAB5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/ionic.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/icon/drawable-hdpi-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/icon/drawable-ldpi-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/icon/drawable-mdpi-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/icon/drawable-xhdpi-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/icon/drawable-xxhdpi-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/icon/drawable-xxxhdpi-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-land-hdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-land-ldpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-land-mdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-land-xhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-land-xxhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-port-hdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-port-ldpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-port-mdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-port-xhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-port-xxhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/android/xml/network_security_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-24@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-27.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-44@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-50@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-72@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-83.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-86@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-98@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-small@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon-small@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/icon/icon@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-2436h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-568h@2x~iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-667h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-736h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-Landscape-2436h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-Landscape-736h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-Landscape@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-Landscape@~ipadpro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-Landscape~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-Portrait@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-Portrait@~ipadpro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default-Portrait~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default@2x~iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default@2x~universal~anyany.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/ios/splash/Default~iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/resources/splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/home/home.page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/home/home.page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/home/home.page.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/app/home/home.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/assets/icon/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/assets/shapes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/theme/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/src/zone-flags.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Anh-Jiaqing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Anh-Jiaqing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/angular.json" beforeDir="false" />
@@ -188,9 +83,7 @@
       <change beforePath="$PROJECT_DIR$/5/Lab4/resources/ios/splash/Default@2x~universal~anyany.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/resources/ios/splash/Default~iphone.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/resources/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5/Lab4/src/app/LAB5/new/new.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/LAB5/src/app/home/home.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/src/app/LAB5/new/new.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5/Lab4/src/app/LAB5/new/new.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LAB5/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/src/app/LAB5/new/new.page.spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/src/app/LAB5/new/new.page.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/src/app/app-routing.module.ts" beforeDir="false" />
@@ -247,6 +140,8 @@
       <change beforePath="$PROJECT_DIR$/5/Lab4/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/tsconfig.spec.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/5/Lab4/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB5/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LAB5/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB5/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LAB5/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -271,13 +166,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="excluded.www.directory" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="ts.external.directory.path" value="D:\ASE\Anh-Jiaqing\5\Lab4\node_modules\typescript\lib" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\ASE\Anh-Jiaqing\LAB5\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,7 +200,10 @@
       <updated>1569192177295</updated>
       <workItem from="1569192178514" duration="6246000" />
       <workItem from="1569251960377" duration="568000" />
-      <workItem from="1569253732775" duration="1584000" />
+      <workItem from="1569253732775" duration="1853000" />
+      <workItem from="1569294797793" duration="2785000" />
+      <workItem from="1569362144899" duration="595000" />
+      <workItem from="1569695465574" duration="896000" />
     </task>
     <task id="LOCAL-00001" summary="Added Notification">
       <created>1569192610326</created>
@@ -319,11 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569192701158</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Notification">
+      <created>1569255522779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569255522779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
