@@ -1,0 +1,54 @@
+<div class="button-row">
+  <a mat-raised-button color="primary" [routerLink]="['/customer']">
+    <mat-icon>list</mat-icon>
+  </a>
+</div>
+<form [formGroup]="customerForm" (ngSubmit)="onFormSubmit(customerForm.value)">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="ID" formControlName="customer_id"
+           [errorStateMatcher]="matcher">
+    <mat-error>
+      <span *ngIf="!customerForm.get('customer_id').valid && customerForm.get('customer_id').touched">Please enter ID</span>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Name" formControlName="customer_name"
+           [errorStateMatcher]="matcher">
+    <mat-error>
+      <span *ngIf="!customerForm.get('customer_name').valid && customerForm.get('customer_name').touched">Please enter name</span>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="email" formControlName="customer_email"
+           [errorStateMatcher]="matcher">
+    <mat-error>
+      <span *ngIf="!customerForm.get('customer_email').valid && customerForm.get('customer_email').touched">Please enter email</span>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <textarea matInput placeholder="phone" formControlName="customer_phone"
+              [errorStateMatcher]="matcher"></textarea>
+    <mat-error>
+      <span *ngIf="!customerForm.get('customer_phone').valid && customerForm.get('customer_phone').touched">Please enter phone</span>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Order" formControlName="customer_order"
+           [errorStateMatcher]="matcher">
+    <mat-error>
+      <span *ngIf="!customerForm.get('customer_order').valid && customerForm.get('customer_order').touched">Please enter order</span>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="address" formControlName="customer_address"
+           [errorStateMatcher]="matcher">
+    <mat-error>
+      <span *ngIf="!customerForm.get('customer_address').valid && customerForm.get('customer_address').touched">Please enter address</span>
+    </mat-error>
+  </mat-form-field>
+  <div class="button-row">
+    <button type="submit" [disabled]="!customerForm.valid" mat-raised-button color="primary">
+      <mat-icon>save</mat-icon>
+    </button>
+  </div>
+</form>
