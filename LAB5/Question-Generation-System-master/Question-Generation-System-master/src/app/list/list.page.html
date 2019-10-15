@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      List
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        Question
+      </ion-col>
+      <ion-col size="2">
+        Subject
+      </ion-col>
+      <ion-col size="2">
+        Type
+      </ion-col>
+      <ion-col size="2">
+        Difficulty
+      </ion-col>
+    </ion-row>
+    <ion-row *ngFor="let item of items">
+      <ion-col size="6">
+        {{item.question}}
+      </ion-col>
+      <ion-col size="2">
+        {{item.subject}}
+      </ion-col>
+      <ion-col size="2">
+        {{item.type}}
+      </ion-col>
+      <ion-col size="2">
+        {{item.difficulty}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
