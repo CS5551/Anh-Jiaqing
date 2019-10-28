@@ -2,102 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad314ac7-b3a0-4c91-b1a1-377db020f448" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/ionic.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/pic/972aaaf5-d7b0-4a4d-9f3a-1de8b5c9e73a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/pic/sequence diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/home/home.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/home/home.page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/home/home.page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/home/home.page.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/home/home.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/list/list.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/list/list.page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/list/list.page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/list/list.page.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/list/list.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/login/login.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/login/login.page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/login/login.page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/login/login.page.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/login/login.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/question/question-add/question-add.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/question/question-add/question-add.page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/question/question-add/question-add.page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/question/question-add/question-add.page.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/question/question-add/question-add.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/register/register.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/register/register.page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/register/register.page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/register/register.page.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/register/register.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/services/auth.guard.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/services/auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/services/auth.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/services/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/services/question.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/app/services/question.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/assets/icon/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/assets/shapes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/theme/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/src/zone-flags.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/Question-Generation-System-master/Question-Generation-System-master/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/express.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/middleware/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/middleware/query.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/router/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/router/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/lib/view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/express/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/apply-extends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/argsert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/command.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/completion-templates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/completion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/is-promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/levenshtein.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/obj-filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/usage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/lib/yerror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/node_modules/yargs/yargs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/customers-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/customers-data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +28,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="excluded.www.directory" value="true" />
-    <property name="last_opened_file_path" value="F:/ASE/demo1-master/demo1-master/lab7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -167,6 +72,7 @@
       <workItem from="1569896044080" duration="1005000" />
       <workItem from="1570469012705" duration="3474000" />
       <workItem from="1570910830068" duration="1220000" />
+      <workItem from="1571754884931" duration="1152000" />
     </task>
     <task id="LOCAL-00001" summary="Added Notification">
       <created>1569192610326</created>
